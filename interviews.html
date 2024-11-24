@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interviews</title>
+    <link rel="stylesheet" href="abutton.css">
+    <link rel="stylesheet" href="aborang.css">
+    <link rel="stylesheet" href="amenu.css">
+    <link rel="stylesheet" href="newMenu.css"> <!-- Link to your external CSS file -->
+
+    <style>
+        body {
+            font-family: monospace, monospace;
+            margin: 0;
+            padding: 0;
+            background-image:url(background3.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            
+        }
+
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .video-item {
+            flex: 1 1 calc(50% - 40px); /* Adjusts to 2 videos per row with gaps */
+            box-sizing: border-box;
+        }
+
+        video {
+            width: 100%;
+            height: auto; /* Maintains aspect ratio */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .video-item {
+                flex: 1 1 100%; /* 1 video per row on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+        <div class="header-content">
+            <h1>UJANA RIMBA TROPIKA PARK</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="healthyLiving.html">HealthyLiving</a></li>
+                <li><a href="interviews.html">Interviews</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+</header>
+    <div class="container">
+        <h1>Interviews</h1>
+        <h2> watch what some of the visitors have to say about the park!</h2>
+        <div class="video-grid">
+            <div class="video-item">
+                <video controls>
+                    <source src="interview1.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="interview2.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
