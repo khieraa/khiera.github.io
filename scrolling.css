@@ -1,0 +1,13 @@
+html, body {
+    overflow: auto;  /* Enables scrolling */
+    height: 100%;    /* Ensures the body occupies the full height of the viewport */
+}
+
+.container {
+    height: 100vh;   /* Viewport height - You can control the height of any container */
+    overflow-y: scroll;  /* Adds vertical scroll */
+    overflow-x: hidden;  /* Prevents horizontal scroll */
+}
+html {
+    scroll-behavior: smooth;
+}
