@@ -1,0 +1,54 @@
+button, .Back, .signup{
+    
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    color: #793356;
+
+    width: 90px;
+    padding : 7px 8px 7px 32px;
+    border: 1px solid #793356;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-position: 8px;
+    background-repeat: no-repeat;
+}
+button.Back {
+     background-image: url(smallheartpink.png);
+}
+button.signup {
+    background-image: url(smallheartpink.png);
+}
+.cancel {
+    background-image: url(https://media.discordapp.net/attachments/1256589607710228494/1279429555697881208/deleteButton.png?ex=66d46920&is=66d317a0&hm=09ab9e70b193fcbb820e9022542447df7a008a2232d47d513c5f56e2263682d8&=&format=webp&quality=lossless);
+}
+.import {
+    background-image: url( import-icon.png);
+}
+.add {
+    background-image: url(https://media.discordapp.net/attachments/1256589607710228494/1279431104943755316/add_icon.png?ex=66d46a92&is=66d31912&hm=9868fba935ab8d1e205ac48cbf10c2fe8402aeef99fa2e0dfe1173386eda1d74&=&format=webp&quality=lossless&width=473&height=473);
+}
+.update {
+    background-image: url(https://discordapp.com/channels/1256589607240335443/1256589607710228494/1279429555874168876);
+}
+.cetak {
+    background-image: url( Avosoft-Warm-Toolbar-Print.16printer.png);
+}
+.find {
+    background-image: url(search-icon.png);
+}
+a.information {
+    width: 110px;
+    text-decoration: none;
+     background-image: url(information-icon.png);
+
+}
+ 
+button:hover,
+a.maklumat:hover,
+a.banding:hover{
+    background-color:lightpink;
+    cursor: pointer;
+}
+    

@@ -1,0 +1,62 @@
+/* General styles for body and content */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100%;
+    width: 250px; /* Adjust the width as needed */
+    position: center;
+    top: 0;
+    left: 0;
+    background-color: deeppink;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    text-align: center;
+    margin: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Content styling */
+.content {
+    margin-left: 260px; /* Make sure this margin is equal to or greater than the sidebar width */
+    padding: 20px;
+}
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
