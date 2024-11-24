@@ -1,0 +1,111 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:monospace, monospace;
+}
+
+header {
+    background-color: #F7D4D6; /* Light pink color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #F48FB1; /* Light pink text color */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #FF1493; /* Hot pink background for the navbar */
+    padding: 10px 0;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure header stays at the top */
+header {
+    background-color: #F7D4D6; /* Light pink background */
+    padding: 10px 0;
+    position: fixed; /* Fix the header to the top */
+    top: 0;
+    width: 100%; /* Make sure it spans the width of the page */
+    z-index: 1000; /* Keep it above other content */
+}
+
+body {
+    font-family: monospace, monospace;
+    margin: 0;
+    padding-top: 80px; /* Add top padding so the content doesn't go under the header */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #F48FB1;
+}
+
+.navbar ul {
+  
+    display: flex;
+    justify-content: center;
+    background-color: #FF1493; /* Hot pink background */
+    padding: 10px 0;
+    margin: 0; /* Ensure there's no margin around the navbar */
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
